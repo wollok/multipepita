@@ -35,8 +35,8 @@ Considerar estos alimentos:
 - **sorgo**: da 9 joules por gramo.
 
 P.ej. 
-- si Pepita come 20 gramos de alpiste, su energía aumenta en 80 joules, pero
-- si Pepita come 20 gramos de mondongo, su energía aumenta en 2000 joules.
+- si Pepita come 20 gramos de alpiste (o sea, `pepita.comer(alpiste,20)`), su energía aumenta en 80 joules, pero
+- si Pepita come 20 gramos de mondongo (o sea, `pepita.comer(mondongo,20)`), su energía aumenta en 2000 joules.
 
 
 <br>
@@ -74,5 +74,12 @@ Los canelones dan 20 joules por gramo de base. Si tienen salsa, sumar 5 joules. 
 Entonces tenemos: sin nada 20 joules, con salsa 25, con queso 27, con salsa y queso 32.
 
 
+
+## Los deseos de Pepita
+
+Hacer que Pepita entienda el mensaje `haceLoQueQuieras()`. El comportamiento que tiene pepita al recibir ese mensaje depende de su estado de ánimo:
+- Si está débil, come 20 gramos.
+- Si está feliz, vuela 8 kms. 
+- Si Pepita no está ni débil ni feliz, entonces no hace nada
 
 

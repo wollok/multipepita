@@ -18,4 +18,5 @@ object pepita {
 		if (energia % 20 == 0) { cuanto += 15 }
 		return cuanto
 	}
+	method haceLoQueQuieras() { }  // implementar
 }
