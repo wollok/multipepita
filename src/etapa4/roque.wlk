@@ -1,9 +1,11 @@
 /*
- * Copiar pepita2.wlk y comidas.wlk desde etapa2
+ * Copiar pepita.wlk y comidas.wlk desde etapa3
  */
-// import pepita2.*
+// import pepita.*
 // import comidas.*
+import masAves.*
 
 object roque {
-	method entrenar() { }  // completar
+	method tuPupiloEs(ave) { } // implementar
+	method entrenar() { }  // implementar
 }

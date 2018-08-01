@@ -1,4 +1,4 @@
-import pepita2.pepita
+import pepita.pepita
 import comidas.mondongo
 import comidas.alpiste
 
