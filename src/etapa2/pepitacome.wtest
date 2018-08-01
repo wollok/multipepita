@@ -1,10 +1,27 @@
 import pepita.pepita
-import comidas.mondongo
-import comidas.alpiste
+import comidas.*
 
 test "pepita come alpiste y mondongo" {
 	pepita.comer(alpiste, 100)
 	assert.equals(400, pepita.energia())
 	pepita.comer(mondongo, 50)
 	assert.equals(5400, pepita.energia())
+}
+
+test "pepita come canelones" {
+	// sin queso, sin salsa: 20
+	pepita.comer(canelones, 10)
+	assert.equals(200, pepita.energia())
+	// con queso, sin salsa: 27
+	canelones.ponerQueso()
+	pepita.comer(canelones, 10)
+	assert.equals(470, pepita.energia())
+	// con queso, con salsa: 32
+	canelones.ponerSalsa()
+	pepita.comer(canelones, 10)
+	assert.equals(790, pepita.energia())
+	// sin queso, con salsa: 25
+	canelones.sacarQueso()
+	pepita.comer(canelones, 10)
+	assert.equals(1040, pepita.energia())
 }
