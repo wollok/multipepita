@@ -7,6 +7,11 @@ object mondongo {
 	method energiaPorGramo() { return 100 }
 }
 
+// comida que esta fallada
+object bigMac {
+	method energiaQueOtorga() { return 2 }
+}
+
 /*
  * el alcaucil da 20 joules por gramo
  */ 
