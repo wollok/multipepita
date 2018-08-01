@@ -47,4 +47,9 @@ object canelones {
 			+ (if (tieneSalsa) {plusSalsa} else {0} )
 			+ (if (tieneQueso) {plusQueso} else {0} )
 	}
+	
+	method ponerSalsa() { tieneSalsa = true }
+	method sacarSalsa() { tieneSalsa = false }
+	method ponerQueso() { tieneQueso = true }
+	method sacarQueso() { tieneQueso = false }
 }
