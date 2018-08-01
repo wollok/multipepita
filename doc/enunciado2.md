@@ -73,6 +73,11 @@ La segunda, el mijo está seco, entonces da 20 joules por gramo; 10 gramos hacen
 Los canelones dan 20 joules por gramo de base. Si tienen salsa, sumar 5 joules. Si tienen queso, sumar 7.
 Entonces tenemos: sin nada 20 joules, con salsa 25, con queso 27, con salsa y queso 32.
 
+Debe ser posible poner o sacar salsa, y poner o sacar queso, enviándole mensajes al objeto que representa a los canelones. Se puede hacer agregando 4 métodos, uno por cada una de las cuatro opciones posibles.
+
+
+## Comida fallada
+Probar darle de comer un BigMac a Pepita. Va a dar un error ¿por qué? Arreglar la implementación de `bigMac` para transformarlo en un alimento posible para Pepita.
 
 
 ## Los deseos de Pepita
