@@ -8,6 +8,8 @@ object roque {
 	method tuPupiloEs(ave) { 
 		pupilo = ave
 	} 
+	method pupiloActual() { return pupilo }
+
 	method entrenar() { 
 		pupilo.volar(10)
 		pupilo.comer(alpiste,30)
