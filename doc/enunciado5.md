@@ -1,6 +1,6 @@
 # Pepita Turista
 Pepita encuentra reconfortante _visitar_ distintos destinos. 
-Cada posible destino le otorga a pepita cierta cantidad de energía revitalizadora, la cual incrementa directamente su energía (la que hasta el momento solo se modificaba al volar y comer).
+Cada posible destino le aporta a pepita cierta cantidad de energía revitalizadora, la cual incrementa directamente su energía (la que hasta el momento solo se modificaba al volar y comer).
 
 ## Dos destinos iniciales
 Considerar estos dos lugares posibles y sus características:
@@ -8,7 +8,7 @@ Considerar estos dos lugares posibles y sus características:
 - **SierrasCordobesas**: aporta 70 joules de energía revitalizadora
 
 
-## Mar del plata
+## Mar del Plata
 Agregar entre los lugares en los que pepita puede vacacionar a Mar del plata. 
 La energía revitalizadora que aporta depende de si se trata de temporada alta o baja. En temporada baja aporta 80 joules, mientras que en alta resta 20 joules. 
 
@@ -20,7 +20,10 @@ La energía revitalizadora que aporta depende de si se trata de temporada alta o
 	
 ## Noroeste
 Agregar entre los lugares en los que pepita puede vacacionar al Noroeste argentino. 
-La energia revitalizadora que recibe es el 10\% de su propia energía (la de pepita). 
+La energia revitalizadora que aporta es el 10% de la energía del ave viajera. 
 
 **Cosas para pensar**: <br> 
-¿Cómo sabe el noroeste la energía de pepita para aplicarle el 10\%? ¿Es necesario cambiar el mensaje? ¿Qué pasa con el resto de los lugares ya programados?
+¿Cómo sabe el noroeste la energía de pepita para aplicarle el 10%? ¿Es necesario cambiar el mensaje? ¿Qué pasa con el resto de los lugares ya programados?
+
+**Hint** <br>
+El 10% de un número se puede calcular como `<numero> * 0.1`.
