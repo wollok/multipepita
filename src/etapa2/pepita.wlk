@@ -18,6 +18,11 @@ object pepita {
 		if (energia % 20 == 0) { cuanto += 15 }
 		return cuanto
 	}
+	method salirAComer() {
+		self.volar(5)
+		self.comer(alpiste, 80)
+		self.volar(5)
+	}
 	method haceLoQueQuieras() { 
 		if (self.estaDebil()) {
 			self.comer(alpiste, 20)

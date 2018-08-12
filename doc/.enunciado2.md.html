@@ -677,6 +677,18 @@ function setDocumentScrollTop(ypos)
  <li>si Pepita come 20 gramos de mondongo (o sea, <code>pepita.comer(mondongo,20)</code>), su energ&iacute;a aumenta en 2000 joules.</li> 
 </ul> 
 <br /> 
+<h2> <a id="comida-fallada" class="anchor" href="#comida-fallada" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Comida fallada</h2> 
+<p>Probar darle de comer un BigMac a Pepita. Va a dar un error &iquest;por qu&eacute;? Arreglar la implementaci&oacute;n de <code>bigMac</code> para transformarlo en un alimento posible para Pepita.</p> 
+<br /> 
+<h2> <a id="salir-a-comer" class="anchor" href="#salir-a-comer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Salir a comer</h2> 
+<p>Se sabe que el lugar donde vive habitualmente Pepita est&aacute; a unos 5 kil&oacute;metros de un dep&oacute;sito de alpiste. Por lo tanto, una forma habitual de alimentaci&oacute;n de Pepita consiste en:</p> 
+<ul> 
+ <li>volar hasta el dep&oacute;sito, 5 kil&oacute;metros,</li> 
+ <li>comer 80 gramos de alpiste, y finalmente</li> 
+ <li>volver a su zona habitual, lo que implica volar otros 5 kil&oacute;metros.</li> 
+</ul> 
+<p>Agregar al modelo de Pepita la capacidad de entender el mensaje <code>salirAComer()</code>, que ejecuta esta secuencia de acciones.</p> 
+<br /> 
 <h2> <a id="comidas-especiales" class="anchor" href="#comidas-especiales" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Comidas especiales</h2> 
 <p>Agregar las siguientes cosas que puede comer Pepita</p> 
 <h3> <a id="mijo" class="anchor" href="#mijo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mijo</h3> 
@@ -696,8 +708,7 @@ function setDocumentScrollTop(ypos)
 <h3> <a id="canelones" class="anchor" href="#canelones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Canelones</h3> 
 <p>Los canelones dan 20 joules por gramo de base. Si tienen salsa, sumar 5 joules. Si tienen queso, sumar 7. Entonces tenemos: sin nada 20 joules, con salsa 25, con queso 27, con salsa y queso 32.</p> 
 <p>Debe ser posible poner o sacar salsa, y poner o sacar queso, envi&aacute;ndole mensajes al objeto que representa a los canelones. Se puede hacer agregando 4 m&eacute;todos, uno por cada una de las cuatro opciones posibles.</p> 
-<h2> <a id="comida-fallada" class="anchor" href="#comida-fallada" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Comida fallada</h2> 
-<p>Probar darle de comer un BigMac a Pepita. Va a dar un error &iquest;por qu&eacute;? Arreglar la implementaci&oacute;n de <code>bigMac</code> para transformarlo en un alimento posible para Pepita.</p> 
+<br /> 
 <h2> <a id="los-deseos-de-pepita" class="anchor" href="#los-deseos-de-pepita" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Los deseos de Pepita</h2> 
 <p>Hacer que Pepita entienda el mensaje <code>haceLoQueQuieras()</code>. El comportamiento que tiene pepita al recibir ese mensaje depende de su estado de &aacute;nimo:</p> 
 <ul> 
