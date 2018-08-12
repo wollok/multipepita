@@ -41,6 +41,22 @@ P.ej.
 
 <br>
 
+## Comida fallada
+Probar darle de comer un BigMac a Pepita. Va a dar un error ¿por qué? Arreglar la implementación de `bigMac` para transformarlo en un alimento posible para Pepita.
+
+<br>
+
+## Salir a comer
+
+Se sabe que el lugar donde vive habitualmente Pepita está a unos 5 kilómetros de un depósito de alpiste. Por lo tanto, una forma habitual de alimentación de Pepita consiste en:
+- volar hasta el depósito, 5 kilómetros,
+- comer 80 gramos de alpiste, y finalmente
+- volver a su zona habitual, lo que implica volar otros 5 kilómetros.
+
+Agregar al modelo de Pepita la capacidad de entender el mensaje `salirAComer()`, que ejecuta esta secuencia de acciones.
+
+<br>
+
 ## Comidas especiales
 
 Agregar las siguientes cosas que puede comer Pepita
@@ -75,10 +91,7 @@ Entonces tenemos: sin nada 20 joules, con salsa 25, con queso 27, con salsa y qu
 
 Debe ser posible poner o sacar salsa, y poner o sacar queso, enviándole mensajes al objeto que representa a los canelones. Se puede hacer agregando 4 métodos, uno por cada una de las cuatro opciones posibles.
 
-
-## Comida fallada
-Probar darle de comer un BigMac a Pepita. Va a dar un error ¿por qué? Arreglar la implementación de `bigMac` para transformarlo en un alimento posible para Pepita.
-
+<br>
 
 ## Los deseos de Pepita
 
