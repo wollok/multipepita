@@ -1,3 +1,5 @@
+import comidas.*
+
 /*
  * Agregar
  * - los objetos que representan a los posibles destinos
@@ -7,5 +9,5 @@
 object pepita {
 	var energia
 	method energia() { return energia }
-	method comer(gramos) { energia += 4 * gramos }
+	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
 }
