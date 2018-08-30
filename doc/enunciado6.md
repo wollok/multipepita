@@ -21,8 +21,6 @@ Levantar un REPL nuevito y hacer lo siguiente
 1. hacer la cuenta de cómo debería quedar la energía de Pepita, y la de Pepón, después de decirles a Roque y a Susana que entrenen a sus pupilos.
 1. ejecutar `roque.entrenar()` y luego `susana.entrenar()`.
 1. ver si la energía de Pepita, y la de Pepón, quedaron como pensaban. 
-\end{enumerate}
-\vspace{-2mm}
 
 **¡OJO!** <br> 
 _no cerrar el REPL_, vamos a seguir usándolo en la parte que sigue.
@@ -35,7 +33,7 @@ Sobre el mismo REPL de la parte anterior, que por supuesto no cerramos, hacer lo
 1. decirle a Susana que ahora tiene que entrenar a Pepita.
 1. dibujar cómo quedó el diagrama de objetos después de este cambio.
 1. hacer la cuenta de cómo debería quedar la energía de Pepita y de Pepón después de decirles a Roque y a Susana que entrenen a sus pupilos.
-1. ejecutar roque.entrenar()` y luego `susana.entrenar()`
+1. ejecutar `roque.entrenar()` y luego `susana.entrenar()`
 1. ver si la energía de Pepita, y la de Pepón, quedaron como pensaban. ¿Quién cambió, quién quedó igual, por qué?
 1. pensar cómo puedo darme cuenta, desde el REPL, que están entrenando a la misma ave. Ayuda: usar el mensaje `pupiloActual()`.
 

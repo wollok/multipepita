@@ -14,7 +14,7 @@ object pepita {
 	method estaFeliz() { return true }  // implementar
 	
 	method cuantoQuiereVolar() { 
-		var cuanto = self.energia() / 5
+		var cuanto = energia / 5
 		if (energia.between(300, 400)) { cuanto += 10 }
 		if (energia % 20 == 0) { cuanto += 15 }
 		return cuanto
@@ -27,14 +27,11 @@ object pepita {
 	
 	method haceLoQueQuieras() { 
 		if (self.estaDebil()) {
-			// completar
-		} 
+			self.comer(alpiste, 20)
 		// completar el método, de acuerdo a la estructura
 		// que se deja comentada aca abajo
-//		else if (... otra condicion ...) {
-//			
-//		} else {
-//			
-//		}
+		} else if (self.estaFeliz()) {
+			//		
+		}
 	}
 }
