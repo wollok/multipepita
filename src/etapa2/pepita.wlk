@@ -13,7 +13,7 @@ object pepita {
 	method estaDebil() { return self.energia() < 50 }  
 	method estaFeliz() { return self.energia().between(500, 1000) }
 	method cuantoQuiereVolar() { 
-		var cuanto = self.energia() / 5
+		var cuanto = energia / 5
 		if (energia.between(300, 400)) { cuanto += 10 }
 		if (energia % 20 == 0) { cuanto += 15 }
 		return cuanto
