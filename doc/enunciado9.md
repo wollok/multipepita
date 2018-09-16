@@ -48,7 +48,8 @@ Hacer un test en el que
 --->
 
 y después se verifica que
-- los valores de energía de `juliana` , `melina`, `tatiana` y `pepon` son, respectivamente, 285, 972, 157 y 249 joules.
-- `pirula` ha comido en total 130 gramos y volado 15 kilómetros; los valores para `pirincha` son 30 joules y 35 kilómetros.
+- los valores de energía de `juliana` , `melina`, `tatiana` y `pepon` son, respectivamente, 285, 967, 72 y 249 joules.
+- `pirula` ha comido en total 100 gramos y volado 0 kilómetros; los valores para `pirincha` son 30 joules y 35 kilómetros.
 
+Armar el diagrama de objetos que corresponde a esta situación.
 
