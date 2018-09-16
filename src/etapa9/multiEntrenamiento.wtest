@@ -1,0 +1,36 @@
+import roque.*
+import golondrina.*
+import masAves.*
+import comidas.*
+
+describe "entrenamiento de muchas aves" {
+
+	test "roque entrena muchas aves" {
+		const juliana = new Golondrina()
+		const melina = new Golondrina()
+		const tatiana = new Golondrina()
+		juliana.comer(alpiste, 50)
+		melina.comer(mondongo, 9)
+		tatiana.comer(sorgo, 8)
+		pepon.comer(alpiste, 100)
+		const pirula = new Paloma()
+		const pirincha = new Paloma()
+		pirula.comer(alpiste, 100)
+		pirincha.volar(20)
+		
+		roque.agregarPupilo(juliana)
+		roque.agregarPupilo(melina)
+		roque.agregarPupilo(pirincha)
+		roque.agregarPupilo(pepon)
+		roque.entrenar()
+		
+		assert.equals(285, juliana.energia())
+		assert.equals(967, melina.energia())
+		assert.equals(72, tatiana.energia())
+		assert.equals(249, pepon.energia())
+		assert.equals(100, pirula.acumuladoGramosIngeridos())
+		assert.equals(0, pirula.acumuladoKmsRecorridos())
+		assert.equals(30, pirincha.acumuladoGramosIngeridos())
+		assert.equals(35, pirincha.acumuladoKmsRecorridos())
+	}
+}
