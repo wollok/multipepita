@@ -35,8 +35,8 @@ Considerar estos alimentos:
 - **sorgo**: da 9 joules.
 
 P.ej. 
-- si Pepita alpiste (o sea, `pepita.comer(alpiste)`), su energía aumenta en 4 joules
-- si Pepita mondongo (o sea, `pepita.comer(mondongo)`), su energía aumenta en 100 joules.
+- si Pepita come alpiste (o sea, `pepita.comer(alpiste)`), su energía aumenta en 4 joules
+- si Pepita come mondongo (o sea, `pepita.comer(mondongo)`), su energía aumenta en 100 joules.
 
 <br>
 
