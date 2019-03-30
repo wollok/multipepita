@@ -2,7 +2,7 @@
 object pepon {
 	// aca falta un atributo
 	
-	method comer(cosa, cuanto) { }  // implementar
+	method comer(cosa) { }  // implementar
 	method volar(kms) { }           // implementar
 	method haceLoQueQuieras() { }   // implementar
 }

@@ -1,15 +1,15 @@
 
 object alpiste {
-	method energiaPorGramo() { return 4 }
+	method energiaQueOtorga() { return 4 }
 }
 
 object mondongo {
-	method energiaPorGramo() { return 100 }
+	method energiaQueOtorga() { return 100 }
 }
 
 // comida que esta fallada
 object bigMac {
-	method energiaQueOtorga() { return 2 }
+	method energiaDada() { return 2 }
 }
 
 /*

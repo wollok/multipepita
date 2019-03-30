@@ -29,6 +29,6 @@ object pepucha {
     }
     cuantoComioDesdeUltimoVuelo = 0
   }
-  method comer(gramos) { cuantoComioDesdeUltimoVuelo += gramos }
+  method comer(cosa) { cuantoComioDesdeUltimoVuelo += cosa.energiaQueOtorga() }
   method esBienTratada() { return kmVoladosConPilas >= kmVoladosSinPilas }
 }

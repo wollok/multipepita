@@ -3,8 +3,8 @@ import comidas.mondongo
 import comidas.alpiste
 
 test "pepita come alpiste y mondongo" {
-	pepita.comer(alpiste, 100)
-	assert.equals(400, pepita.energia())
-	pepita.comer(mondongo, 50)
-	assert.equals(5400, pepita.energia())
+	pepita.comer(alpiste)
+	assert.equals(4, pepita.energia())
+	pepita.comer(mondongo)
+	assert.equals(104, pepita.energia())
 }
