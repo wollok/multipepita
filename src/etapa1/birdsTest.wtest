@@ -1,7 +1,0 @@
-import birds.*
-
-test "pepita interface test" {
-	pepita.eat(50)
-	pepita.fly(20)
-	assert.equals(340, pepita.doubledEnergy())
-}

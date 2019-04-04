@@ -1,8 +1,0 @@
-import birds_classes.*
-
-test "Swallow instance interface test" {
-	var pepita = new Swallow()
-	pepita.eat(50)
-	pepita.fly(20)
-	assert.equals(340, pepita.doubledEnergy())
-}
