@@ -24,22 +24,6 @@ Probarlo en el REPL, p.ej. poner `35 % 20`, `40 % 20`; probar con otros valores.
 
 <br>
 
-## Pepita come distintas cosas
-Queremos diferenciar los alimentes que pepita pude comer.
-Para esto agregamos algunos alimentos, donde cada uno indica cuántos joules aporta, que se suman a la energía de Pepita.
-
-Considerar estos alimentos:
-- **alpiste**: da 4 joules.
-- **mondongo**: da 100 joules.
-- **alcaucil**: da 20 joules.
-- **sorgo**: da 9 joules.
-
-P.ej. 
-- si Pepita come alpiste (o sea, `pepita.comer(alpiste)`), su energía aumenta en 4 joules
-- si Pepita come mondongo (o sea, `pepita.comer(mondongo)`), su energía aumenta en 100 joules.
-
-<br>
-
 ## Salir a comer
 
 Se sabe que el lugar donde vive habitualmente Pepita está a unos 5 kilómetros de un depósito de alpiste. Por lo tanto, una forma habitual de alimentación de Pepita consiste en:
